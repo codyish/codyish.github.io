@@ -1,3 +1,2 @@
-# codyish.github.io
+# This is the readme
 
-Github person page
