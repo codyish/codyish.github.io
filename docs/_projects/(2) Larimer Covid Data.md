@@ -5,16 +5,31 @@ image: https://www.sketchappsources.com/resources/source-image/movie-badges-jura
 description: Larimer Covid front matter description
 ---
 
-# Larimer County Covid Data
+# Larimer County Covid Data (Internal Project)
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+This is an interactive dashboard of Larimer County covid data including daily and rolling average
+* Cases (Positive tests)
+* Deaths
+* Hospitalizations
+* Total patient count
+* Vaccinations
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+With the eventual goal of also determining 
+* the strongest time-lag correlation between case rate and hospitalizations and death.
+* Ratio of cases to hospitalizations and deaths over time.
 
-## Search Movies
+---
 
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
+{% include_relative fig_documents/case_mod.html%}
+
+{% include_relative fig_documents/death_mod.html%}
+
+{% include_relative fig_documents/hosp_mod.html%}
+
+{% include_relative fig_documents/patient_mod.html%}
+
+{% include_relative fig_documents/vac_mod.html%}
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
+{% include elements/button.html link="https://github.com/codyish/larimer_covid" text="Learn More" %}
 </p>
