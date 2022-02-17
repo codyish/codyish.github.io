@@ -3,9 +3,8 @@ name: Larimer County Covid Data
 tools: [Python, Pandas, Jupyter, Bokeh]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
 description: Larimer Covid front matter description
+external_url: https://www.datamidden.com/larimer_covid
 ---
-
-# Larimer County Covid Data (Internal Project)
 
 This is an interactive dashboard of Larimer County covid data including daily and rolling average
 * Cases (Positive tests)
@@ -20,16 +19,16 @@ With the eventual goal of also determining
 
 ---
 
-{% include_relative fig_documents/case_mod.html%}
+{% include_relative fig_documents/case_mod.html %}
 
-{% include_relative fig_documents/death_mod.html%}
+{% include_relative fig_documents/death_mod.html %}
 
-{% include_relative fig_documents/hosp_mod.html%}
+{% include_relative fig_documents/hosp_mod.html %}
 
-{% include_relative fig_documents/patient_mod.html%}
+{% include_relative fig_documents/patient_mod.html %}
 
-{% include_relative fig_documents/vac_mod.html%}
+{% include_relative fig_documents/vac_mod.html %}
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/codyish/larimer_covid" text="Learn More" %}
+{% include elements/button.html link="https://github.com/codyish" text="Learn More" %}
 </p>
