@@ -5,7 +5,7 @@ image: https://www.sketchappsources.com/resources/source-image/project-neon-groo
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ---
 
-{% include_relative %}
+
 
 {% include_relative docs/larimer_fig_docs/case_mod.html %}
 {% include_relative docs/larimer_fig_docs/death_mod.html %}
