@@ -23,7 +23,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Cody Stephenson
-  image             : docs/assets/data_fool.png
+  image             : https://imgs.xkcd.com/comics/data_trap.png
 # behance           : your_username
 # dribbble          : your_username
 # email             : username@domain.com
