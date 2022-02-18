@@ -1,7 +1,7 @@
 ### Site Settings ###
-title               : Date Midden
+title               : Data Midden
 description         : >-
-                      Config yml description.
+                      mid·den (mĭd′n) - A mound or deposit containing shells, animal bones, and other refuse that indicates the site of a human settlement. A useful resource for archaeologists
 baseurl             : "/"                               # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : codyish/github.io                 # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
