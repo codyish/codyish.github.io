@@ -8,7 +8,11 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 
 
 {% include_relative larimer_fig_docs/case_mod.html %}
+
 {% include_relative larimer_fig_docs/death_mod.html %}
+
 {% include_relative larimer_fig_docs/hosp_mod.html %}
+
 {% include_relative larimer_fig_docs/patient_mod.html %}
+
 {% include_relative larimer_fig_docs/vac_mod.html %}
