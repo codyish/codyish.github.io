@@ -18,3 +18,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 {% include project_assets/larimer_fig_docs/patient_mod.html %}
 
 {% include project_assets/larimer_fig_docs/vac_mod.html %}
+
+***
+
+{% include project_assets/larimer_fig_docs/grid_fig.html %}
+
