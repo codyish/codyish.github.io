@@ -1,7 +1,7 @@
 ---
 name: Larimer Covid Data
 tools: [Python, Pandas, Juypter, Bokeh]
-image: _includes/project_assets/larimer_fig_docs/vac_cover.png
+image: docs/_includes/project_assets/larimer_fig_docs/vac_cover.png
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ---
 
