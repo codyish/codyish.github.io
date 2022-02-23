@@ -24,3 +24,6 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 
 {% include project_assets/larimer_fig_docs/grid_fig.html %}
 
+***
+
+{% include project_assets/larimer_fig_docs/all_avg.html %}
