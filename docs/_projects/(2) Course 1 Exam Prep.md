@@ -7,7 +7,7 @@ description: This project has an individual showcase page, not just a direct lin
 
 # Course 1 Exam Prep
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+[Study Sheet](https://raw.githack.com/codyish/Prob_class_series/refs/heads/main/Course%201/Study%20/exam_prep.html)
 
 ![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
 
