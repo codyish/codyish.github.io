@@ -7,7 +7,7 @@ description: This project has an individual showcase page, not just a direct lin
 
 # Course 1 Exam Prep
 
-![Study Sheet](https://raw.githack.com/codyish/Prob_class_series/refs/heads/main/Course%201/Study%20/exam_prep.html)
+[Study Sheet](https://raw.githack.com/codyish/Prob_class_series/refs/heads/main/Course%201/Study%20/exam_prep.html)
 
 
 <p class="text-center">
