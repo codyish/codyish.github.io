@@ -7,13 +7,8 @@ description: This project has an individual showcase page, not just a direct lin
 
 # Course 1 Exam Prep
 
-[Study Sheet](https://raw.githack.com/codyish/Prob_class_series/refs/heads/main/Course%201/Study%20/exam_prep.html)
+![Study Sheet](https://raw.githack.com/codyish/Prob_class_series/refs/heads/main/Course%201/Study%20/exam_prep.html)
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
-
-## Search Movies
-
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
