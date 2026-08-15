@@ -2,7 +2,7 @@
 name: Larimer Covid Data
 tools: [Python, Pandas, Juypter, Bokeh]
 image: https://www.datamidden.com/assets/vac_cover.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: I tried to learn python and bokeh by tracking covid and vaccination related data in Larimer County.
 ---
 
 
@@ -20,7 +20,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 {% include project_assets/larimer_fig_docs/vac_mod.html %}
 
 ***
-# Cool to add a combo figure with matched zoom?
+# Combo figure with matched zoom
 
 {% include project_assets/larimer_fig_docs/grid_fig.html %}
 
