@@ -66,9 +66,11 @@ disqus:
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
-  google:
-    tracking_id: your-google-tracking-id
+  enabled: true                                         # Set false to disable all analytics
+  goatcounter:
+    endpoint: https://datamidden.goatcounter.com/count  # Same account the Bayes Box app reports to
+# google:                                               # Uncomment with a real ID to also load gtag.js
+#   tracking_id: G-XXXXXXXXXX
 
 
 ### Defaults for collections ###
