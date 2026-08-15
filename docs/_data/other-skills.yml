@@ -1,7 +1,7 @@
-- name: Adobe Photoshop
+- name: DnD
   percentage: 95
   color: info
 
-- name: Adobe Illustrator
+- name: Burrito Assessment
   percentage: 90
   color: success
