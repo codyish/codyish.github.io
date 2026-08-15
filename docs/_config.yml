@@ -2,6 +2,7 @@
 title               : Data Midden
 description         : >-
                       mid·den (mĭd′n) - A mound or deposit containing shells, animal bones, and other refuse that indicates the site of a human settlement. A useful resource for archaeologists
+url                 : https://www.datamidden.com        # Canonical origin; used for absolute URLs
 baseurl             : ""                                # Site is served at the domain root (www.datamidden.com)
 repository          : codyish/codyish.github.io         # Used by jekyll-github-metadata for remote projects
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)

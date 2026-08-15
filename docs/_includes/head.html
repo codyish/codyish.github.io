@@ -20,6 +20,13 @@
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
 
+  {% comment %}
+    Local addition, not upstream portfolYOU. Points search engines at one
+    canonical URL per page so campaign-tagged variants (?utm_campaign=...)
+    and the apex/www forms are not indexed as separate pages.
+  {% endcomment %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 
   <!-- Theme style -->
