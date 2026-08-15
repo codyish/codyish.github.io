@@ -2,10 +2,13 @@
 title               : Data Midden
 description         : >-
                       mid·den (mĭd′n) - A mound or deposit containing shells, animal bones, and other refuse that indicates the site of a human settlement. A useful resource for archaeologists
-baseurl             : "/"                               # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : codyish/github.io                 # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+baseurl             : ""                                # Site is served at the domain root (www.datamidden.com)
+repository          : codyish/codyish.github.io         # Used by jekyll-github-metadata for remote projects
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+# Theme is vendored into this repo (_layouts, _includes, _sass) rather than
+# pulled with remote_theme. See THEME.md at the repo root for provenance and
+# how to re-sync with upstream.
 
 
 ### Plugins ###
@@ -83,8 +86,15 @@ defaults:
 
 
 ### Exclude from processing ###
+# NOTE: defining this key replaces Jekyll's built-in defaults, so local build
+# artifacts (vendor/, .bundle/, Gemfile) must be listed explicitly or they get
+# copied into the published site.
 exclude:
   - README.md
   - CONTRIBUTING.md
   - LICENSE
+  - vendor
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
   - "*.log"

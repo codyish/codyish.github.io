@@ -1,5 +1,16 @@
 source "https://rubygems.org"
 
+# This Gemfile is for LOCAL PREVIEW ONLY. GitHub Pages builds this site with its
+# legacy (classic) builder, which ignores this file and uses its own pinned
+# github-pages gem set. Keeping github-pages here means a local build matches
+# production.
 gem "github-pages", group: :jekyll_plugins
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "webrick", "~> 1.7"
+
+# Ruby 3.4+ removed these from the standard library, but the Jekyll 3.x that
+# github-pages pins still expects them. Needed only to run a local build.
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
